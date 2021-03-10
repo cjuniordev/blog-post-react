@@ -4,9 +4,9 @@ export const Container = styled.div`
   --width-button: 30px;
 
   height: 50vh;
-  width: 60px;
+  width: 50px;
 
-  display: flex !important;
+  display: flex;
   flex-direction: column;
   align-item: center;
   justify-content: center;

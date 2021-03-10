@@ -1,12 +1,19 @@
+import { Container } from './style';
 import Header from '../../components/Header';
 import ReactionButtons from './ReactionButtons';
+import Main from './Main';
+import AsideBar from './AsideBar';
 
 function Post() {
   return (
-    <div>
-      <Header></Header>
-      <ReactionButtons />
-    </div>
+    <>
+      <Header />
+      <Container>
+        <ReactionButtons />
+        <Main />
+        <AsideBar />
+      </Container>
+    </>
   );
 }
 
