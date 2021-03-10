@@ -1,8 +1,8 @@
+import Post from './pages/Post';
+
 function App() {
   return (
-    <div className="App">
-      <h1>blog post react</h1>
-    </div>
+    <Post />
   );
 }
 
