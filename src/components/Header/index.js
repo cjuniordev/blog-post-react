@@ -2,8 +2,7 @@ import { Container, Logo, Options, Button, Option, Profile, ImgProfile } from '.
 import profileImg from '../../assets/profile.png';
 
 // icons
-import { RiChatSmile3Line } from 'react-icons/ri';
-import { RiNotification3Line } from 'react-icons/ri';
+import { RiChatSmile3Line, RiNotification3Line } from 'react-icons/ri';
 
 function Header() {
   return (
