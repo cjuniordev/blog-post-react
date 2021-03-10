@@ -1,14 +1,18 @@
 import { Container, Logo, Options, Button, Option, Profile, ImgProfile } from './style';
 import profileImg from '../../assets/profile.png';
 
+// icons
+import { RiChatSmile3Line } from 'react-icons/ri';
+import { RiNotification3Line } from 'react-icons/ri';
+
 function Header() {
   return (
     <Container>
       <Logo />
       <Options>
         <Button>Write a post</Button>
-        <Option>💬</Option>
-        <Option>🔔</Option>
+        <Option><RiChatSmile3Line /></Option>
+        <Option><RiNotification3Line /></Option>
         <Profile>
           <ImgProfile src={profileImg} alt="Profile"/>
         </Profile>

@@ -36,7 +36,7 @@ export const Options = styled.div`
   align-item: center;
   justify-content: center;
 
-  & > *{
+  & > * {
     margin-right: 10px;
   }
 `;
@@ -59,6 +59,13 @@ export const Option = styled.div`
   display: flex;
   align-item: center;
   justify-content: center;
+
+  & > * {
+    height: 70%;
+    width: 70%;
+
+    padding-top: 5px;
+  }
 `;
 
 export const Profile = styled.div`
