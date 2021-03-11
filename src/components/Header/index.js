@@ -13,7 +13,7 @@ function Header() {
         <Button>Write a post</Button>
         <Option><RiChatSmile3Line /></Option>
         <Option><RiNotification3Line /></Option>
-        <ProfilePhoto />
+        <ProfilePhoto size={36}/>
       </Options>
     </Container>
   );

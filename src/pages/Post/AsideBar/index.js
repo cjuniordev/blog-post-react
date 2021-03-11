@@ -7,7 +7,7 @@ function AsideBar() {
       <Profile>
         <Banner />
         <ProfilePhoto>
-          <Photo/>
+          <Photo size={50}/>
         </ProfilePhoto>
       </Profile>
       <Trending></Trending>

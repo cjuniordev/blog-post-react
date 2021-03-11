@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const Profile = styled.div`
-  height: 38px;
-  width: 38px;
+  height: ${props => props.size}px;
+  width: ${props => props.size}px;
 
   display: flex;
   align-item: center;

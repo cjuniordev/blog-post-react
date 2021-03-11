@@ -1,9 +1,9 @@
 import { Profile, ImgProfile } from './style';
 import profileImg from '../../assets/profile.png';
 
-function ProfilePhoto() {
+function ProfilePhoto(props) {
   return (
-    <Profile>
+    <Profile size={props.size}>
       <ImgProfile src={profileImg} alt="Profile"/>
     </Profile>
   );
