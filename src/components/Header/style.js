@@ -67,18 +67,3 @@ export const Option = styled.div`
     padding-top: 5px;
   }
 `;
-
-export const Profile = styled.div`
-  height: var(--height-childs);
-  width: var(--height-childs);
-
-  display: flex;
-  align-item: center;
-  justify-content: center;
-
-  margin-right: 0 !important;
-`;
-
-export const ImgProfile = styled.img`
-  border-radius: 50%;
-`;
