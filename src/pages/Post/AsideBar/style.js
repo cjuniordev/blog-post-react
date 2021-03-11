@@ -4,7 +4,7 @@ export const Container = styled.div`
   height: 100vh;
   width: 30%;
 
-    border-radius: 6px 6px 0 0;
+  border-radius: 6px 6px 0 0;
   background-color: #c1ffc1;
 `;
 
