@@ -31,7 +31,7 @@ export const ProfilePhoto = styled.div`
 
   position: relative;
   top: -15px;
-  left: 15px;
+  left: 16px;
 
   display: flex;
   flex-direction: row;
@@ -53,4 +53,30 @@ export const Description = styled.p`
   line-height: 24px;
 
   word-break: break-word;
+`;
+
+export const ContainerButton = styled.div`
+  padding: 16px;
+`;
+
+export const Since = styled.div`
+  padding-bottom: 16px;
+`;
+
+export const SinceTitle = styled.p`
+  padding: 0 16px;
+
+  color: rgb(77, 87, 96);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+`;
+
+export const SinceDate = styled.p`
+  padding: 0 16px;
+
+  color: rgb(32, 36, 40);
+  font-size: 16px;
+  line-height: 24px;
 `;
