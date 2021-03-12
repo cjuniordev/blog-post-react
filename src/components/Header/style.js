@@ -10,6 +10,7 @@ export const Container = styled.div`
   justify-content: space-between;
 
   position: sticky;
+  position: -webkit-sticky;
   top: 0;
   left: 0;
   z-index: 99999;
