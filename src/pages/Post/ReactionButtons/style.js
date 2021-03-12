@@ -10,6 +10,9 @@ export const Container = styled.div`
   flex-direction: column;
   align-item: center;
   justify-content: center;
+
+  position: sticky;
+  top: 72px;
 `;
 
 export const ContainerButton = styled.div`
