@@ -44,3 +44,13 @@ export const Name = styled.p`
   font-weight: 700;
   font-size: 20px
 `;
+
+export const Description = styled.p`
+  padding: 0 15px 10px 15px;
+
+  color: rgb(77, 87, 96);
+  font-size: 16px;
+  line-height: 24px;
+
+  word-break: break-word;
+`;
