@@ -31,6 +31,10 @@ export const Logo = styled.div`
   font-weight: bold;
 `;
 
+export const ContainerButton = styled.div`
+  width: 110px;
+`;
+
 export const Options = styled.div`
   display: flex;
   align-item: center;
