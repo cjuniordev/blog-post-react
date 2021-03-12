@@ -1,7 +1,6 @@
 import { Container, Logo, ContainerButton, Options, Option } from './style';
 import Button from '../Button';
 import ProfilePhoto from '../ProfilePhoto';
-import profileImg from '../../assets/profile.png';
 
 // icons
 import { RiChatSmile3Line, RiNotification3Line } from 'react-icons/ri';
