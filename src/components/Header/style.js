@@ -41,17 +41,6 @@ export const Options = styled.div`
   }
 `;
 
-export const Button = styled.button`
-  height: var(--height-childs);
-  width: 110px;
-
-  background-color: #3B49DF;
-  color: #FFFF;
-
-  border: none;
-  border-radius: 5px;
-`;
-
 export const Option = styled.div`
   height: var(--height-childs);
   width: var(--height-childs);

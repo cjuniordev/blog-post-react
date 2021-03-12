@@ -1,4 +1,5 @@
-import { Container, Logo, Options, Button, Option } from './style';
+import { Container, Logo, Options, Option } from './style';
+import Button from '../Button';
 import ProfilePhoto from '../ProfilePhoto';
 import profileImg from '../../assets/profile.png';
 
@@ -10,7 +11,7 @@ function Header() {
     <Container>
       <Logo />
       <Options>
-        <Button>Write a post</Button>
+        <Button height={38} width={110}>Write a post</Button>
         <Option><RiChatSmile3Line /></Option>
         <Option><RiNotification3Line /></Option>
         <ProfilePhoto size={36}/>
