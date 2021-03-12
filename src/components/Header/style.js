@@ -9,9 +9,16 @@ export const Container = styled.div`
   align-items: center;
   justify-content: space-between;
 
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+
   -webkit-box-shadow: 0px 0.5px 2px 0px rgba(0,0,0,0.2);
   -moz-box-shadow: 0px 0.5px 2px 0px rgba(0,0,0,0.2);
   box-shadow: 0px 0.5px 2px 0px rgba(0,0,0,0.2);
+
+  background-color: #FFFF;
 `;
 
 export const Logo = styled.div`
