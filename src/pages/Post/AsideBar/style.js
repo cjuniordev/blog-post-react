@@ -7,6 +7,10 @@ export const Container = styled.div`
   border-radius: 6px 6px 0 0;
 `;
 
+export const Wrapper= styled.div`
+  padding: 0 16px 16px 16px;
+`
+
 export const Profile = styled.div`
   width: 100%;
 
@@ -31,7 +35,6 @@ export const ProfilePhoto = styled.div`
 
   position: relative;
   top: -15px;
-  left: 16px;
 
   display: flex;
   flex-direction: row;
@@ -46,7 +49,7 @@ export const Name = styled.p`
 `;
 
 export const Description = styled.p`
-  padding: 0 15px 10px 15px;
+  padding-bottom: 10px;
 
   color: rgb(77, 87, 96);
   font-size: 16px;
@@ -55,17 +58,11 @@ export const Description = styled.p`
   word-break: break-word;
 `;
 
-export const ContainerButton = styled.div`
-  padding: 16px;
-`;
-
 export const Since = styled.div`
-  padding-bottom: 16px;
+  padding-top: 10px;
 `;
 
 export const SinceTitle = styled.p`
-  padding: 0 16px;
-
   color: rgb(77, 87, 96);
   text-transform: uppercase;
   font-weight: 700;
@@ -74,8 +71,6 @@ export const SinceTitle = styled.p`
 `;
 
 export const SinceDate = styled.p`
-  padding: 0 16px;
-
   color: rgb(32, 36, 40);
   font-size: 16px;
   line-height: 24px;
