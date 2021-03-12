@@ -1,4 +1,4 @@
-import { Container, Profile, Trending, Banner, ProfilePhoto } from './style';
+import { Container, Profile, Trending, Banner, ProfilePhoto, Name, Description } from './style';
 import Photo from '../../../components/ProfilePhoto';
 
 function AsideBar() {
@@ -8,7 +8,10 @@ function AsideBar() {
         <Banner />
         <ProfilePhoto>
           <Photo size={50}/>
+          <Name>Carlos</Name>
+          
         </ProfilePhoto>
+
       </Profile>
       <Trending></Trending>
     </Container>

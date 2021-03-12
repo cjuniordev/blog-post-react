@@ -5,11 +5,12 @@ export const Container = styled.div`
   width: 30%;
 
   border-radius: 6px 6px 0 0;
-  background-color: #c1ffc1;
 `;
 
 export const Profile = styled.div`
   width: 100%;
+
+  background-color: #FFFF;
 `;
 
 export const Banner = styled.div`
@@ -25,10 +26,21 @@ export const Trending = styled.div`
 `;
 
 export const ProfilePhoto = styled.div`
-  height: 30px;
+  height: 50px;
   width: 100%;
 
   position: relative;
   top: -15px;
   left: 15px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+`;
+
+export const Name = styled.p`
+  padding: 0 0 10px 5px;
+
+  font-weight: 700;
+  font-size: 20px
 `;

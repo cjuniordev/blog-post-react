@@ -11,4 +11,6 @@ export const Container = styled.div`
   justify-content: space-between;
 
   background-color: #EEF0F1;
+
+  font-family: Roboto, sans-serif;
 `;
