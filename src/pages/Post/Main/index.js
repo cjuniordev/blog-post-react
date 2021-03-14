@@ -1,6 +1,6 @@
-import { Container, Cover, Img, Content, Header, Title, Info, Profile, Name, Date, TimeRead } from './style';
+import { Container, Cover, Img, Content, Header, Title } from './style';
 import Tags from './Tags';
-import ProfilePhoto from '../../../components/ProfilePhoto';
+import Info from './Info';
 
 function Main() {
   return (
@@ -12,14 +12,7 @@ function Main() {
         <Header>
           <Title>Lorem Ipsum Dolor Sit Amet Consectetur Adipiscing Elit.</Title>
           <Tags />
-          <Info>
-            <Profile>
-              <ProfilePhoto size={32}/>
-              <Name>Carlos Jr</Name>
-            </Profile>
-            <Date>13 de mar.</Date>
-            <TimeRead>3 min read</TimeRead>
-          </Info>
+          <Info />
         </Header>
       </Content>
     </Container>
