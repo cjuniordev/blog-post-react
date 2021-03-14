@@ -37,7 +37,7 @@ export const Title = styled.h1`
 
 
 export const Tags = styled.div`
-  margin-bottom: 16px;
+  margin-bottom: 18px;
 `;
 
 export const Tag = styled.span`
