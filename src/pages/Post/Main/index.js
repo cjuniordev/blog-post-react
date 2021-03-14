@@ -1,4 +1,5 @@
-import { Container, Cover, Img, Content, Header, Title, Tags, Tag, Info, Profile, Name, Date, TimeRead } from './style';
+import { Container, Cover, Img, Content, Header, Title, Info, Profile, Name, Date, TimeRead } from './style';
+import Tags from './Tags';
 import ProfilePhoto from '../../../components/ProfilePhoto';
 
 function Main() {
@@ -10,11 +11,7 @@ function Main() {
       <Content>
         <Header>
           <Title>Lorem Ipsum Dolor Sit Amet Consectetur Adipiscing Elit.</Title>
-          <Tags>
-            <Tag bgcolor={'#F7DF1E'} color={'#000000'}>javascript</Tag>
-            <Tag bgcolor={'#3D8836'} color={'#FFF'}>nodejs</Tag>
-            <Tag bgcolor={'#562765'} color={'#FFF'}>reactjs</Tag>
-          </Tags>
+          <Tags />
           <Info>
             <Profile>
               <ProfilePhoto size={32}/>
