@@ -34,10 +34,3 @@ export const Title = styled.h1`
  line-height: 60px;
  margin-bottom: 16px;
 `;
-
-export const Paragraph = styled.p`
-  font-size: 20px;
-  line-height: 30px;
-
-  margin-bottom: 20px;
-`;
