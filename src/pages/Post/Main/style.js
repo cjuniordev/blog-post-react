@@ -25,7 +25,7 @@ export const Content = styled.div`
 `;
 
 export const Header = styled.div`
-
+  margin-bottom: 32px;
 `;
 
 export const Title = styled.h1`
@@ -33,4 +33,11 @@ export const Title = styled.h1`
  font-weight: 800;
  line-height: 60px;
  margin-bottom: 16px;
+`;
+
+export const Paragraph = styled.p`
+  font-size: 20px;
+  line-height: 30px;
+
+  margin-bottom: 20px;
 `;
