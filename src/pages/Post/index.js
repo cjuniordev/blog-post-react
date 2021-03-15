@@ -1,4 +1,4 @@
-import { Container } from './style';
+import { Container, Columns } from './style';
 import Header from '../../components/Header';
 import ReactionButtons from './ReactionButtons';
 import Main from './Main';
@@ -6,14 +6,14 @@ import AsideBar from './AsideBar';
 
 function Post() {
   return (
-    <>
+    <Container>
       <Header />
-      <Container>
+      <Columns>
         <ReactionButtons />
         <Main />
         <AsideBar />
-      </Container>
-    </>
+      </Columns>
+    </Container>
   );
 }
 
