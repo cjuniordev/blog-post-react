@@ -2,6 +2,7 @@ import { Container, Cover, Img, Content, Header, Title } from './style';
 import Tags from './Tags';
 import Info from './Info';
 import Text from './Text';
+import Discussion from './Discussion';
 
 function Main() {
   return (
@@ -16,6 +17,7 @@ function Main() {
           <Info />
         </Header>
         <Text />
+        <Discussion />
       </Content>
     </Container>
   );
