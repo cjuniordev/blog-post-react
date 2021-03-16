@@ -16,7 +16,6 @@ export const PhotoWrapper = styled.div`
 `;
 
 export const CommentLabel = styled.div`
-  height: 60px;
   width: 100%;
 
   padding: 4px;

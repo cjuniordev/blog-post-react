@@ -1,6 +1,7 @@
 import { Container, PhotoWrapper, CommentLabel } from './style';
 import ProfilePhoto from '../../../../../components/ProfilePhoto';
 import Header from './Header';
+import Body from './Body';
 
 function Comment() {
   return (
@@ -10,6 +11,7 @@ function Comment() {
       </PhotoWrapper>
       <CommentLabel>
         <Header />
+        <Body />
       </CommentLabel>
     </Container>
   );
