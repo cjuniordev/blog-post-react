@@ -1,6 +1,6 @@
-import { Container, PhotoWrapper, CommentLabel, CommentHeader, CommentHeaderInfo, CommentUsername, CommentDate } from './style';
+import { Container, PhotoWrapper, CommentLabel } from './style';
 import ProfilePhoto from '../../../../../components/ProfilePhoto';
-import { HiDotsHorizontal } from 'react-icons/hi';
+import Header from './Header';
 
 function Comment() {
   return (
@@ -9,13 +9,7 @@ function Comment() {
         <ProfilePhoto size={32}/>
       </PhotoWrapper>
       <CommentLabel>
-        <CommentHeader>
-          <CommentHeaderInfo>
-            <CommentUsername>João</CommentUsername>
-            <CommentDate>Mar 16</CommentDate>
-          </CommentHeaderInfo>
-          <HiDotsHorizontal />
-        </CommentHeader>
+        <Header />
       </CommentLabel>
     </Container>
   );

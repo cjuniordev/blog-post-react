@@ -39,7 +39,3 @@ export const Button = styled.button`
   font-weight: 400;
   line-height: 24px;
 `;
-
-export const CommentBody = styled.div``;
-
-export const CommentParagraph = styled.p``;
