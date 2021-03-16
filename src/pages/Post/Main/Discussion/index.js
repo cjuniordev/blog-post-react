@@ -1,5 +1,7 @@
 import { Container, Header, Title, Button, Comment, PhotoWrapper, TextArea, CommentLabel, CommentHeader, CommentHeaderInfo, CommentUsername, CommentDate } from './style';
+import ToComment from './ToComment';
 import ProfilePhoto from '../../../../components/ProfilePhoto';
+
 import { HiDotsHorizontal } from 'react-icons/hi';
 
 function Discussion() {

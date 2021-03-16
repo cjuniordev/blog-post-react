@@ -113,3 +113,7 @@ export const CommentDate = styled.div`
   font-size: 14px;
   line-height: 21px
 `;
+
+export const CommentBody = styled.div``;
+
+export const CommentParagraph = styled.p``;
