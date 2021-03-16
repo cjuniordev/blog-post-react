@@ -15,7 +15,11 @@ export const PhotoWrapper = styled.div`
   margin-right: 8px;
 `;
 
-export const CommentLabel = styled.div`
+export const Wrapper = styled.div`
+  width: 100%;
+`;
+
+export const Label = styled.div`
   width: 100%;
 
   padding: 4px;
