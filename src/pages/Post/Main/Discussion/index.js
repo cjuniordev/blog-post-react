@@ -1,4 +1,4 @@
-import { Container, Header, Title, Button, Comment, PhotoWrapper, TextArea, CommentLabel, CommentHeader, CommentHeaderInfo, CommentUsername, CommentDate } from './style';
+import { Container, Header, Title, Button, Comment, PhotoWrapper, CommentLabel, CommentHeader, CommentHeaderInfo, CommentUsername, CommentDate } from './style';
 import ToComment from './ToComment';
 import ProfilePhoto from '../../../../components/ProfilePhoto';
 
@@ -11,12 +11,7 @@ function Discussion() {
         <Title>Discussion (2)</Title>
         <Button>Subscribe</Button>
       </Header>
-      <Comment>
-        <PhotoWrapper>
-          <ProfilePhoto size={32}/>
-        </PhotoWrapper>
-        <TextArea placeholder="Add to the discussion" />
-      </Comment>
+      <ToComment />
       <Comment>
         <PhotoWrapper>
           <ProfilePhoto size={32}/>
