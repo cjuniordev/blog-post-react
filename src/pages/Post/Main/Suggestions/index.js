@@ -6,6 +6,9 @@ function Suggestions() {
     <Container>
       <Title>Read next</Title>
       <Post />
+      <Post />
+      <Post />
+      <Post />
     </Container>
   );
 }
