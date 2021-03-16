@@ -1,5 +1,6 @@
-import { Container, Header, Title, Button, ToComment, PhotoWrapper, TextArea } from './style';
+import { Container, Header, Title, Button, Comment, PhotoWrapper, TextArea, CommentLabel, CommentHeader, CommentHeaderInfo, CommentUsername, CommentDate } from './style';
 import ProfilePhoto from '../../../../components/ProfilePhoto';
+import { HiDotsHorizontal } from 'react-icons/hi';
 
 function Discussion() {
   return (
@@ -8,12 +9,26 @@ function Discussion() {
         <Title>Discussion (2)</Title>
         <Button>Subscribe</Button>
       </Header>
-      <ToComment>
+      <Comment>
         <PhotoWrapper>
           <ProfilePhoto size={32}/>
         </PhotoWrapper>
         <TextArea placeholder="Add to the discussion" />
-      </ToComment>
+      </Comment>
+      <Comment>
+        <PhotoWrapper>
+          <ProfilePhoto size={32}/>
+        </PhotoWrapper>
+        <CommentLabel>
+          <CommentHeader>
+            <CommentHeaderInfo>
+              <CommentUsername>João</CommentUsername>
+              <CommentDate>Mar 16</CommentDate>
+            </CommentHeaderInfo>
+            <HiDotsHorizontal />
+          </CommentHeader>
+        </CommentLabel>
+      </Comment>
     </Container>
   );
 }
