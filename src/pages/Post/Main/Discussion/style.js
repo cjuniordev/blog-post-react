@@ -7,6 +7,8 @@ export const Container = styled.div`
 
   font-size: 14px;
   line-heigth: 21px;
+
+  margin-bottom: 16px;
 `;
 
 export const Header = styled.div`
