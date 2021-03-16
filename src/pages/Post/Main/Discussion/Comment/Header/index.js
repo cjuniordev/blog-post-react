@@ -1,5 +1,4 @@
 import { Container, Info, Username, Date } from './style';
-import ProfilePhoto from '../../../../../../components/ProfilePhoto';
 import { HiDotsHorizontal } from 'react-icons/hi';
 
 function Header() {

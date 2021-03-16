@@ -1,7 +1,6 @@
 import { Container, Header, Title, Button } from './style';
 import ToComment from './ToComment';
 import Comment from './Comment';
-import ProfilePhoto from '../../../../components/ProfilePhoto';
 
 function Discussion() {
   return (
