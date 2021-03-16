@@ -3,6 +3,7 @@ import Tags from './Tags';
 import Info from './Info';
 import Text from './Text';
 import Discussion from './Discussion';
+import Suggestions from './Suggestions';
 
 function Main() {
   return (
@@ -19,6 +20,7 @@ function Main() {
         <Text />
         <Discussion />
       </Content>
+      <Suggestions />
     </Container>
   );
 }
