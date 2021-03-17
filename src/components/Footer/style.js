@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  background-color: #7a7a7a;
+  background-color: #D2D6DB;
 
   padding: 48px;
 
@@ -42,4 +42,27 @@ export const Link = styled.a`
 
 export const Bold = styled.span`
   font-weight: 700
+`;
+
+export const Icons = styled.div`
+  width: 100%;
+
+  padding-top: 16px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: rgb(77, 87, 96);
+`;
+
+export const IconWrapper = styled.a`
+  height: 24px;
+  width: 24px;
+  margin: 0 8px;
+
+  & > * {
+    height: 100%;
+    width: 100%;
+  }
 `;

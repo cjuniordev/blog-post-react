@@ -1,4 +1,7 @@
-import { Container, Content, Links, LinkRow, Link, Bold } from './style';
+import { Container, Content, Links, LinkRow, Link, Bold, Icons, IconWrapper } from './style';
+
+// icons
+import { RiTwitterFill, RiFacebookBoxFill, RiGithubFill, RiInstagramFill, RiTwitchFill } from 'react-icons/ri';
 
 function Footer() {
   return (
@@ -24,6 +27,13 @@ function Footer() {
             <Link>Contact</Link>
             <Link><Bold>Write a post</Bold></Link>
           </LinkRow>
+          <Icons>
+            <IconWrapper><RiTwitterFill /></IconWrapper>
+            <IconWrapper><RiFacebookBoxFill /></IconWrapper>
+            <IconWrapper><RiGithubFill /></IconWrapper>
+            <IconWrapper><RiInstagramFill /></IconWrapper>
+            <IconWrapper><RiTwitchFill /></IconWrapper>
+          </Icons>
         </Links>
       </Content>
     </Container>
