@@ -13,6 +13,11 @@
 Install the requisites:
 [Git](https://git-scm.com), [Yarn](https://yarnpkg.com/).
 
+<<<<<<< HEAD
+=======
+Clone and run the [BackEnd](https://github.com/cjuniordev/login-authenticate-node)
+
+>>>>>>> a7664498a4ab9a425bcf1e5a3fa6179e8070c85d
 ### Getting started
 
 ``` bash
