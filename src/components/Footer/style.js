@@ -72,3 +72,15 @@ export const Hr = styled.hr`
   opacity: 0.15;
   width: 147.2px;
 `;
+
+export const Paragraph = styled.p`
+  width: 100%;
+  padding-top: 15px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 14px;
+  line-height: 21px;
+`;

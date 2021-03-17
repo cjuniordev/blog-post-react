@@ -1,4 +1,4 @@
-import { Container, Content, Links, LinkRow, Link, Bold, Icons, IconWrapper,Hr } from './style';
+import { Container, Content, Links, LinkRow, Link, Bold, Icons, IconWrapper, Hr, Paragraph } from './style';
 
 // icons
 import { RiTwitterFill, RiFacebookBoxFill, RiGithubFill, RiInstagramFill, RiTwitchFill } from 'react-icons/ri';
@@ -35,6 +35,8 @@ function Footer() {
             <IconWrapper><RiTwitchFill /></IconWrapper>
           </Icons>
           <Hr />
+          <Paragraph>Built for learn — this project is open source, don't have anything gain purpose of money.</Paragraph>
+          <Paragraph>Made with love and React. DEV learn © 2021 - 2021.</Paragraph>
         </Links>
       </Content>
     </Container>
