@@ -66,3 +66,9 @@ export const IconWrapper = styled.a`
     width: 100%;
   }
 `;
+
+export const Hr = styled.hr`
+  border-bottom-width: 0px;
+  opacity: 0.15;
+  width: 147.2px;
+`;

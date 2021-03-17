@@ -1,4 +1,4 @@
-import { Container, Content, Links, LinkRow, Link, Bold, Icons, IconWrapper } from './style';
+import { Container, Content, Links, LinkRow, Link, Bold, Icons, IconWrapper,Hr } from './style';
 
 // icons
 import { RiTwitterFill, RiFacebookBoxFill, RiGithubFill, RiInstagramFill, RiTwitchFill } from 'react-icons/ri';
@@ -34,6 +34,7 @@ function Footer() {
             <IconWrapper><RiInstagramFill /></IconWrapper>
             <IconWrapper><RiTwitchFill /></IconWrapper>
           </Icons>
+          <Hr />
         </Links>
       </Content>
     </Container>
